@@ -46,9 +46,9 @@ Portfolio/
    ```
 
 ## 📢 Contact Me
-- **LinkedIn**: ```bash https://www.linkedin.com/in/ganeshrajput7045/ ```
-- **GitHub**: ```bash https://www.linkedin.com/in/ganesh-rajput-07/ ```
-- **X**: ```bash https://x.com/RajputGanesh07 ```
+- **LinkedIn**: ```https://www.linkedin.com/in/ganeshrajput7045/ ```
+- **GitHub**: ```https://www.linkedin.com/in/ganesh-rajput-07/ ```
+- **X**: ```https://x.com/RajputGanesh07 ```
 
 If you find this portfolio helpful or have any feedback, feel free to reach out! 😊
 
