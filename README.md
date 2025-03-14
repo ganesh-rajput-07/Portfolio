@@ -37,7 +37,7 @@ Portfolio/
 ## 🚀 How to Run Locally
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/ganesh-rajput-07/Portfolio.git
    cd your-portfolio
    ```
 2. **Open `index.html` in a browser**
@@ -46,9 +46,9 @@ Portfolio/
    ```
 
 ## 📢 Contact Me
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-- **Email**: [Your Email Address]
+- **LinkedIn**: ``` bash https://www.linkedin.com/in/ganeshrajput7045/ ```
+- **GitHub**: ``` bash https://www.linkedin.com/in/ganesh-rajput-07/ ```
+- **X**: ``` bash https://x.com/RajputGanesh07 ```
 
 If you find this portfolio helpful or have any feedback, feel free to reach out! 😊
 
