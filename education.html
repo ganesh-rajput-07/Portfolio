@@ -4,8 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ganesh Rajput - Education</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .education-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .education-card h5 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .certifications ul {
+      padding-left: 0;
+      list-style: none;
+    }
+    .certifications li {
+      background: #007bff;
+      color: white;
+      padding: 8px;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body class="dark-mode">
   <!-- Navigation Bar -->
@@ -33,27 +58,60 @@
   <main class="container my-5 pb-5">
     <h1 class="text-center mb-4">Education</h1>
     <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Technology (B.Tech)</h5>
-            <p class="card-text">Computer Science and Engineering</p>
-            <p class="card-text">University of XYZ, 2020-2024</p>
-          </div>
+
+      <!-- Bachelor's Degree -->
+      <div class="col-md-6">
+        <div class="education-card">
+          <h5><i class="fas fa-university"></i> Bachelor of Engineering (B.E.)</h5>
+          <p>Computer Engineering</p>
+          <p><strong>Pacific School of Engineering, Palsana, Surat</strong></p>
+          <p>Affiliated with Gujarat Technological University (GTU)</p>
+          <p>2022 - 2027</p>
         </div>
       </div>
-      <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Certifications</h5>
-            <ul>
-              <li>Certified Ethical Hacker (CEH)</li>
-              <li>CompTIA Security+</li>
-              <li>Cisco Certified Network Associate (CCNA)</li>
-            </ul>
-          </div>
+
+      <!-- 12th Standard -->
+      <div class="col-md-6">
+        <div class="education-card">
+          <h5><i class="fas fa-school"></i> Higher Secondary Education (12th Science - GSEB)</h5>
+          <p><strong>K. and M. P. Patel School, Amroli, Surat</strong></p>
+          <p>Gujarat Secondary and Higher Secondary Education Board</p>
+          <p>Completed in 2022</p>
         </div>
       </div>
+
+      <!-- Certifications -->
+<div class="col-md-12">
+  <div class="education-card certifications">
+    <h5><i class="fas fa-certificate"></i> Certifications</h5>
+    <ul>
+      <li>SOC Member Certification – LetsDefend (Jan 2025) 
+        <a href="https://tinyurl.com/verifythecertificate" target="_blank" class="text-light">[Verify]</a>
+      </li>
+      <li>AIG Shield Up – Cybersecurity Job Simulation – Forage (Oct 2024) 
+        <a href="https://tinyurl.com/verifyaigcertificate" target="_blank" class="text-light">[Verify]</a>
+      </li>
+      <li>MasterCard Cybersecurity Job Simulation – Forage (Oct 2024) 
+        <a href="https://tinyurl.com/verifymastercardcertificate" target="_blank" class="text-light">[Verify]</a>
+      </li>
+      <li>Python Certification - GeeksForGeeks (Dec 2024) 
+        <a href="https://tinyurl.com/verifypythoncertificate" target="_blank" class="text-light">[Verify]</a>
+      </li>
+      <li><strong>TCS Security Analyst Job Simulation – Forage (Mar 2025)</strong>  
+        <a href="http://theforage.com/" target="_blank" class="text-light">[Verify]</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="text-center mt-4">
+  <a href="https://drive.google.com/uc?export=download&id=17EgNpcmXb2UYRT5X8eNHIDx5eYbyL1_1" 
+     class="btn btn-primary btn-lg">
+    <i class="fas fa-download"></i> Download My Resume
+  </a>
+</div>
+
+
     </div>
   </main>
 
@@ -62,8 +120,6 @@
     <p>&copy; 2025 Ganesh Rajput. All rights reserved.</p>
   </footer>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>

@@ -4,8 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ganesh Rajput - About Me</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .about-section {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      color: white;
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .social-icons a {
+      color: white;
+      font-size: 20px;
+      margin-right: 15px;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
 <body class="dark-mode">
   <!-- Navigation Bar -->
@@ -23,37 +48,77 @@
           <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           <li class="nav-item"><a class="nav-link active" href="about.html">About Me</a></li>
-          <li class="nav-item d-flex align-items-center"><label class="theme-switch"><input type="checkbox" id="theme-toggle"><span class="slider"></span></label></li>
+          <li class="nav-item d-flex align-items-center">
+            <label class="theme-switch"><input type="checkbox" id="theme-toggle"><span class="slider"></span></label>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Main Content -->
-  <main class="container my-5 pb-5">
-    <h1 class="text-center mb-4">About Me</h1>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bio</h5>
-            <p class="card-text">Hi, I'm Ganesh Rajput, a Computer Engineer specializing in Cybersecurity. I have a passion for securing systems and building innovative solutions.</p>
-          </div>
-        </div>
+  <main class="container my-5 pb-5 text-center">
+    <h1 class="mb-4">About Me</h1>
+    
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img src="images/profile.jpg" alt="Ganesh Rajput" class="profile-img">
       </div>
-      <div class="col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Interests</h5>
-            <ul>
-              <li>Cybersecurity</li>
-              <li>Embedded Systems</li>
-              <li>IoT Development</li>
-            </ul>
+      <div class="col-md-8">
+        <div class="about-section">
+          <h3><i class="fas fa-user"></i> Who Am I?</h3>
+          <p>
+            Hi, I'm <strong>Ganesh Rajput</strong>, a passionate <strong>Cybersecurity Enthusiast</strong> 
+            with expertise in SOC Analysis, Ethical Hacking, and Security Operations.  
+            I love working on Threat Intelligence, SIEM Tools, and Security Automation to create safer digital environments.
+          </p>
+          <br>
+          <h3><i class="fas fa-lightbulb"></i> My Interests</h3>
+          <p>
+            Beyond cybersecurity, I'm deeply interested in AI-powered security solutions,  
+            ethical hacking methodologies, and network security optimization.  
+            I also explore automation and Python scripting to enhance security operations.
+          </p>
+          <br>
+
+          <h3><i class="fas fa-graduation-cap"></i> My Learning Journey</h3>
+          <p>
+            Currently pursuing my B.E. in Computer Engineering at GTU,  
+            I am always looking to expand my knowledge in cybersecurity and contribute to the field.
+          </p>
+
+          <br>
+
+          <h3><i class="fas fa-laptop-code"></i> My Vision</h3>
+          <p>
+            My goal is to become a top-tier cybersecurity expert and help secure businesses  
+            by detecting, preventing, and mitigating cyber threats.
+          </p>
+
+          <br>
+
+          <div class="d-flex justify-content-center gap-3">
+            <a href="https://www.linkedin.com/in/ganeshrajput7045/" target="_blank" class="social-link">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/ganesh-rajput-07" target="_blank" class="social-link">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://x.com/RajputGanesh07" target="_blank" class="social-link">
+              <i class="fab fa-x-twitter fa-2x"></i>
+            </a>
+            
           </div>
         </div>
       </div>
     </div>
+    <div class="text-center mt-4">
+      <a href="https://drive.google.com/uc?export=download&id=17EgNpcmXb2UYRT5X8eNHIDx5eYbyL1_1" 
+         class="btn btn-primary btn-lg">
+        <i class="fas fa-download"></i> Download My Resume
+      </a>
+    </div>
+          
   </main>
 
   <!-- Footer -->
@@ -62,7 +127,5 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
-  
 </body>
 </html>
